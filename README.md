@@ -11,7 +11,7 @@
 3. **Send the encrypted X_test to the server:** The encrypted data is sent to the server for prediction. The server can perform computations required for inference on the encrypted data without having access to the original plaintext.
 4. **Use unencrypted model parameters for inference:** The server uses the unencrypted model parameters to perform the prediction on the encrypted data. The model parameters are not encrypted and can be used directly for prediction because inference operations required simple addition and multiplication between one encrypted and one unencrypted number
 5. **Send model predictions back to the client:** After the prediction is performed, the server sends the encrypted predictions (Y_pred) back to the client.
-6. **On the client, decrypt Y_pred and calculate accuracy: **The client decrypts the encrypted predictions (Y_pred) using the private key to obtain the final predictions in plaintext. The accuracy of the predictions can be calculated by comparing the predicted labels with the actual labels of the test data (Y_test)
+6. **On the client, decrypt Y_pred and calculate accuracy:** The client decrypts the encrypted predictions (Y_pred) using the private key to obtain the final predictions in plaintext. The accuracy of the predictions can be calculated by comparing the predicted labels with the actual labels of the test data (Y_test)
 
 Partial homomorphism in encryption allows for some limited computations to be performed on encrypted data. In the context of privacy-preserving SVM, it enables the server to perform the prediction on the encrypted data while preserving the privacy of the client's data.
 
