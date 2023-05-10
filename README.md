@@ -1,6 +1,6 @@
 # Privacy-preserving SVM assuming public model private data scenario
 
-**Task:** Implement privacy-preserving SVM assuming public model private data scenario (data in encrypted but model parameters are unencrypted) using adequate partial homomorphism encryption
+Implementation of privacy-preserving SVM assuming public model private data scenario (data in encrypted but model parameters are unencrypted) using adequate partial homomorphism encryption
 
 ### System Design
 
